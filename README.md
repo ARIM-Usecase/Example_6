@@ -1,11 +1,20 @@
-# OC_CAE algorithm
-  
-  **One-class convolutional autoencoder (OC_CAE)** is a novel one class classification algorithm, which is proposed for the detection of abnormal samples in excitation-emission matrix (EEM) fluorescence spectral dataset.The OC-CAE uses Boxplot to analyze the reconstruction errors and uses the LOF algorithm to handle features extracted by hidden layer in convolutional autoencoder (CAE) to jointly identify the authenticity of food.
+# ARIM-Academy：　機器データ利活用ユースケース
+### 機器：蛍光分光光度計　（励起-蛍光マトリクス3次元蛍光法）
 
-# The contents of file 
-**OC_CAE_ZAV.ipynb** represents the code of OC_CAE algorithm on the ZAV case.  
-**OC_CAE_CAO.ipynb** represents the code of OC_CAE algorithm on the CAO case.  
-**ZAV.mat** represents the dataset of ZAV case, where the X_training_normal.mat, X_training.mat and X_pre.mat represent the data-augmented training set, training set and prediction set, respectively. And the Y_training_normal.mat, Y_training.mat and Y_pre.mat represent the label of data-augmented training set, training set and prediction set, respectively, where the 0 represents the normal samples, 1 represents the abnormal samples.  
-**CAO.mat** represents the dataset of CAO case, where the X_training_normal.mat, X_training.mat, X_test and X_pre.mat represent the data augmented training set, training set, test set and prediction set, respectively. And the Y_training_normal.mat, Y_training.mat, Y_test.mat and Y_pre.mat represent the label of data-augmented training set, training set and prediction set, respectively, where the 0 represents the normal samples, 1 represents the abnormal samples.  
-**model_ZAV.pt** represents the well_trained the OC_CAE model of ZAV case.  
-**model_CAO.pt** represents the well_trained the OC_CAE model of CAO case.
+### 分析：1 クラス分類アルゴリズム畳み込みオートエンコーダ (OC-CAE)
+
+## データセット
+本データセット「ツバキ油データセット」（CAO.mat）は、純正のツバキ油およびそれに異なる割合で混入された大豆油（SBO）、ピーナッツ油（PO）、ヒマワリ油（SO）の二元混合油サンプルに関するEEM（励起-発光マトリックス）蛍光スペクトルデータです。本データセットは、食品の真正性検証に関する研究に使用され、ツバキ油の偽造検出を目的としています[1]。  
+
+このデータセットを用いた研究では、異常検出のための1クラス分類アルゴリズムである1クラス畳み込みオートエンコーダ（OC-CAE）を使用します。OC-CAEは、再構成誤差の解析にBoxplotを使用し、CAEの隠れ層で抽出された特徴を用いて局所外れ値因子（LOF）アルゴリズムを適用し、食品の真正性を識別します。  
+
+
+[1]  Xiaoqin Yan, Baoshuo Jia, Wanjun Long, Kun Huang, Tong Wang, Hailong Wu, Ruqin Yu  "A Novel One-Class Convolutional Autoencoder Combined With Excitation–Emission Matrix Fluorescence Spectroscopy for Authenticity Identification of Food", Journal of Chemometrics, e3592 (2024)  
+https://doi.org/10.1002/cem.3592c02495
+
+---
+<br>  
+<img src="./img/main_image.jpg" width="50%">
+<br>
+
+---
