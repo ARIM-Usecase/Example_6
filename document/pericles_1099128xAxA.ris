@@ -1,0 +1,33 @@
+
+TY  - JOUR
+T1  - A Novel One-Class Convolutional Autoencoder Combined With Excitation–Emission Matrix Fluorescence Spectroscopy for Authenticity Identification of Food
+AU  - Yan, Xiaoqin
+AU  - Jia, Baoshuo
+AU  - Long, Wanjun
+AU  - Huang, Kun
+AU  - Wang, Tong
+AU  - Wu, Hailong
+AU  - Yu, Ruqin
+Y1  - 2024/08/05
+PY  - 2024
+DA  - 2024/08/05
+DO  - https://doi.org/10.1002/cem.3592
+T2  - Journal of Chemometrics
+JF  - Journal of Chemometrics
+JO  - Journal of Chemometrics
+JA  - Journal of Chemometrics
+SP  - e3592
+VL  - n/a
+IS  - n/a
+KW  - abnormal sample detection
+KW  - autoencoder
+KW  - convolutional
+KW  - excitation–emission matrix fluorescence
+KW  - food fraud
+KW  - one-class classification
+PB  - John Wiley & Sons, Ltd
+SN  - 0886-9383
+UR  - https://doi.org/10.1002/cem.3592
+Y2  - 2024/10/04
+N2  - ABSTRACT In this work, a novel one-class classification algorithm one-class convolutional autoencoder (OC-CAE) was proposed for the detection of abnormal samples in the excitation?emission matrix (EEM) fluorescence spectra dataset. The OC-CAE used Boxplot to analyze the reconstruction errors and used the LOF algorithm to handle features extracted by the hidden layer in the convolutional autoencoder (CAE). The fused information provides the basis for more accurate pattern recognition, ensures flexibility in model training, and can obtain higher model specificity, which is important in the field of food quality control. To demonstrate the reliability and advantages of OC-CAE, two EEM cases related to the authentication of food including the Zhenjiang aromatic vinegar (ZAV) case and the camellia oil (CAO) case were studied. The results showed that OC-CAE identified all abnormal samples in the two cases, reflecting excellent performance in the detection of abnormal samples, and that it, coupled with EEM, would be an effective tool for the authenticity identification of food.
+ER  - 
